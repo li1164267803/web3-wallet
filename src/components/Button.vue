@@ -1,8 +1,8 @@
 <template>
     <div>
         <van-space>
-            <van-button type="primary" @click="createWallet">创建钱包</van-button>
-            <van-button type="primary">导入钱包</van-button>
+            <van-button type="primary" @click="createWallet">创建助记词</van-button>
+            <!-- <van-button type="primary">导入钱包</van-button> -->
         </van-space>
         <template v-if="showMn">
             <p>{{ mnemonic }}</p>
